@@ -1,4 +1,7 @@
-// cy.intercept("POST", "/db.htm").as("verifyDataClear");
-//     cy.get('@verifyDataClear').then(res => {
-//       console.log(res);
-//     })
+//commands for this test scenario can be found inside ./support/commandsBooking.js
+
+describe("Room booking tool validation testing", () => {
+    it("Open the website, open booking section and verify", () => {
+        cy.openAndVerifyBookingPage();
+    })
+})
