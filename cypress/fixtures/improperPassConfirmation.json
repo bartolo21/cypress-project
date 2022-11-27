@@ -1,0 +1,13 @@
+{
+    "firstName": "Ryszard",
+    "lastName": "Rynkowski",
+    "address": "Polna 23",
+    "city": "Elbląg",
+    "state": "Warmińsko-Mazurskie",
+    "zipCode": "99-435",
+    "phone": "48659044328",
+    "ssn": "0960043213",
+    "username": "ryszarder",
+    "password": "Test678@",
+    "passwordConfirm": "Test876@"
+}

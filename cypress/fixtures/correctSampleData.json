@@ -1,0 +1,13 @@
+{
+    "firstName": "Krystian",
+    "lastName": "Bambolo",
+    "address": "Testowa 302",
+    "city": "Kraków",
+    "state": "Małopolskie",
+    "zipCode": "12-323",
+    "phone": "48432442321",
+    "ssn": "3213213621",
+    "username": "krystiano102",
+    "password": "Test122#",
+    "passwordConfirm": "Test122#"
+}
