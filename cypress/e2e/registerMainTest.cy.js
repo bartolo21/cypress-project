@@ -1,4 +1,6 @@
-// <reference types="cypress" />
+// w obu testach (tym oraz bonusowym 'bookingTest.cy.js'), używałem angielskich opisów i zmiennych z racji, że to standard
+// ten test można potraktować jako główny (pisałem go pierwszego), ale drugi, bonusowy jest bardziej przemyślany i ułożony
+// dla obu testów wykorzystałem inne strony (tutaj form rejestracji, w drugim formularz kontaktowy)
 
 describe("Register form automation testing", () => {
   it("Open the website, get to the 'Register' Tab and verify endpoint response", () => {
