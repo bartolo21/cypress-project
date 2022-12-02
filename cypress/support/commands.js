@@ -30,7 +30,6 @@ Cypress.Commands.add('verifyResponse200', (method, endpoint) => {
       });
 })
 
-// trying to verify api register 500 nie wiem
 Cypress.Commands.add('confirmRegisterFail', (method, endpoint) => {
     cy.request(method, endpoint, {failOnStatusCode: false}).then((response) => {
         expect(response.status).to.eq(500);
@@ -63,7 +62,6 @@ Cypress.Commands.add('fillFormTestCaseOne', function () {
     cy.get('[id="customer.ssn"]').type(this.sampleDataOne.ssn, {delay: this.delayTime.delay});
     cy.get('[id="customer.username"]').type(this.sampleDataOne.username, {delay: this.delayTime.delay});
     cy.get('[id="customer.password"]').type(this.sampleDataOne.password, {delay: this.delayTime.delay});
-    // cy.get('[id="repeatedPassword"]').type(this.sampleDataOne.passwordConfirm, {delay: this.delayTime.delay});
 })
 
 Cypress.Commands.add('fillFormTestCaseTwoAndThree', function () {
